@@ -1,0 +1,277 @@
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: 1rem;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  
+  section {
+      padding: 10%;
+      padding-top: 10%;
+      padding-right: 10%;
+      padding-bottom: 10%;
+      padding-left: 10%;
+  }
+  main-info{
+    font-family: 'Noto Serif', serif;
+  
+  }
+  
+  
+  
+  #name{
+      font-family: 'Recursive', sans-serif;
+  }
+  
+  .leftside {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 552px;
+    bottom: 0px;
+    z-index: 1;
+    width: 40%;
+    height: 100%;
+  }
+  
+  
+  
+  .social{
+    margin-top: 1.5rem!important;
+    margin-bottom: 1rem!important;
+  }
+  
+  .social a{
+    margin-right: 1rem;
+  }
+  #about{
+  
+    font-family: 'Yatra One', cursive;
+  }
+  .footer {
+  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+  
+  }
+  #blog_row{
+  
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+  }
+  
+  #blog_head{
+    font-family: 'Merienda', cursive;
+    /* padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%; */
+    justify-content: center;
+    padding:3%;
+  }
+  
+  
+  /* blog animation */
+  
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+  
+  
+  
+  .text_design {
+    position: absolute;
+    width: 450px;
+    left: 47%;
+    margin-left: -225px;
+    height: 10px;
+    top: 30%;
+    margin-top: -20px;
+  }
+  .blog-h1{
+    text-align:center;
+  }
+  
+  
+  
+  a:-webkit-any-link {
+  
+      cursor: pointer;
+  
+  }
+  
+  .card-title, .card-text {
+      color: #343a40!important;
+  }
+  a {
+  
+      text-decoration: none;
+      background-color: transparent;
+  
+  }
+  
+  .animation-table{
+    margin-left:auto;
+    margin-right:auto
+  }
+  
+  
+  
+  .word {
+    /* position: absolute; */
+    opacity: 0;
+  }
+  
+  .letter {
+    display: inline-block;
+    position: relative;
+    /* float: left; */
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 25px;
+  }
+  
+  .letter.out {
+    transform: rotateX(90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  
+  .letter.behind {
+    transform: rotateX(-90deg);
+  }
+  
+  .letter.in {
+    transform: rotateX(0deg);
+    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .wisteria {
+    color: #8e44ad;
+  }
+  
+  .belize {
+    color: #2980b9;
+  }
+  
+  .pomegranate {
+    color: #c0392b;
+  }
+  
+  .green {
+    color: #16a085;
+  }
+  
+  .midnight {
+    color: #2c3e50;
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .parent div {
+   /* background-color: rgba(0,0,0,0.5); */
+   grid-row-start: 1;
+   grid-column-start: 1;
+  }
+  .iwriteabout{
+    padding-left:130px;
+  }
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 540px), only screen and (max-device-width: 540px){
+    #myimg {
+      width: 220px;
+    }
+  }
+  @media only screen and (max-device-width: 480px), only screen and (max-width: 480px) {
+    .parent div {
+     /* background-color: rgba(0,0,0,0.5); */
+     grid-row-start: 1;
+     grid-column-start: 1;
+  
+    }
+    .iwriteabout{
+      padding-left:65px;
+    }
+    #myimg{
+      width: 211px;
+    }
+  
+  }
+  @media only screen and (max-width: 425px), only screen and (max-device-width: 425px){
+    .word {
+      width: 200px;
+    }
+    #myimg{
+      width: 250px;
+    }
+  }
+  @media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+    nav h4{
+      font-size: 19px;
+      }
+     
+  }
+  
+  @media only screen and (max-device-width: 375px), only screen and (max-width: 375px) {
+    .parent div {
+     /* background-color: rgba(0,0,0,0.5); */
+     grid-row-start: 1;
+     grid-column-start: 1;
+  
+    }
+    .iwriteabout{
+      padding-left:21px;
+    }
+    #myimg{
+      width: 230px;
+    }
+  
+  
+  }
+  @media only screen and (max-device-width: 360px), only screen and (max-width: 360px) {
+    #myimg{
+      width: 230px;
+    }
+    #iwrite{
+      padding-left: 48px;
+    }
+    #parent_iwrite{
+      padding-left: 10px;
+    }
+  
+  /* use media query for 320px   */
+  
+  }
+  
+  @media only screen and (max-width: 320px),only screen and (max-device-width: 320px) {
+    nav h4{
+      font-size: 15px;
+    }
+    #myimg{
+      width: 200px;
+    }
+   
+  }
+  @media only screen and (max-width: 280px), only screen and (max-device-width: 280px){
+    nav h4{
+      font-size: 13px;
+    }
+    .word {
+      width: 150px;
+    }
+    
+    
+  }

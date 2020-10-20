@@ -1,0 +1,84 @@
+/* body{
+   margin:0;
+   font:normal 75% Arial, Helvetica, sans-serif;
+ }
+canvas{
+  display: block; vertical-align: bottom;
+}
+   /* ---- particles.js container ---- */
+
+
+   #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* z-index:-1; */
+   
+}
+    
+.project-head {
+  text-align: center;
+  background-color:transparent;
+  font-family: 'Merienda', cursive;
+}
+  
+
+/* * { z-index: 2; } */
+/* .particle, .particle > canvas { z-index: 1 !important; } */
+.container-md{
+  text-align:center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 50%;
+  left: 0;
+  margin: auto;
+  margin-top:150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:transparent;
+  color: #ffffff;
+  
+   z-index: inherit 1;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+  nav h4{
+    font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 320px),only screen and (max-device-width: 320px) {
+  nav h4{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 425px), only screen and (min-device-width: 425px){
+  .word {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 280px), only screen and (max-device-width: 280px){
+  nav h4{
+    font-size: 13px;
+  }
+  .word {
+    width: 150px;
+  }
+  .project-head {
+    font-size: 30px;
+  }
+  .container-md{
+    
+  }
+}
